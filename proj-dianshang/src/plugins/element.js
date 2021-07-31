@@ -23,11 +23,15 @@ import {
   Tooltip,
   Pagination,
   Dialog,
+<<<<<<< HEAD
   MessageBox,
   Tag,
   Tree,
   Select,
   Option
+=======
+  MessageBox
+>>>>>>> 96dc15677d551c0dca5788e850ef050e4dc89607
 } from 'element-ui'
 
 Vue.use(Button)
@@ -52,10 +56,13 @@ Vue.use(Switch)
 Vue.use(Tooltip)
 Vue.use(Pagination)
 Vue.use(Dialog)
+<<<<<<< HEAD
 Vue.use(Tag)
 Vue.use(Tree)
 Vue.use(Select)
 Vue.use(Option)
+=======
+>>>>>>> 96dc15677d551c0dca5788e850ef050e4dc89607
 // 挂载
 Vue.prototype.$message = Message
 Vue.prototype.$confirm = MessageBox.confirm

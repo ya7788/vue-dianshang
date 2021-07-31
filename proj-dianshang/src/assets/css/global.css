@@ -5,7 +5,10 @@ body,
     height: 100%;
     margin: 0;
     padding: 0;
+<<<<<<< HEAD
     min-width: 1366px;
+=======
+>>>>>>> 96dc15677d551c0dca5788e850ef050e4dc89607
 }
 
 .el-breadcrumb {
