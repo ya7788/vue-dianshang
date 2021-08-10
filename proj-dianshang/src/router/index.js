@@ -3,13 +3,10 @@ import Router from 'vue-router'
 import Login from '../components/Login.vue'
 import Home from '../components/Home.vue'
 import Welcome from '../components/Welcome.vue'
-<<<<<<< HEAD
 import Users from '../components/user/Users.vue'
 import Rights from '../components/power/Right.vue'
 import Roles from '../components/power/Roles.vue'
-=======
-import Users from '../components/Users.vue'
->>>>>>> 96dc15677d551c0dca5788e850ef050e4dc89607
+import Cate from '../components/goods/Cate.vue'
 
 Vue.use(Router)
 
@@ -23,13 +20,10 @@ const router = new Router({
       redirect: '/welcome',
       children: [
         { path: '/welcome', component: Welcome },
-<<<<<<< HEAD
         { path: '/users', component: Users },
         { path: '/rights', component: Rights },
-        { path: '/roles', component: Roles }
-=======
-        { path: '/users', component: Users }
->>>>>>> 96dc15677d551c0dca5788e850ef050e4dc89607
+        { path: '/roles', component: Roles },
+        { path: '/categories', component: Cate }
       ]
     }
   ]
